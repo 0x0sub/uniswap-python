@@ -27,6 +27,8 @@ _netid_to_name = {
     137: "polygon",
     100: "xdai",
     250: "fantom",
+    4337: "beam",
+    13337: "beam_testnet",
     42161: "arbitrum",
     421611: "arbitrum_testnet",
     1666600000: "harmony_mainnet",
@@ -56,7 +58,10 @@ _factory_contract_addresses_v2 = {
     # SushiSwap on Harmony
     "harmony_mainnet": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
     "harmony_testnet": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
-    "sepolia": "0x7E0987E5b3a30e3f2828572Bb659A548460a3003"
+    "sepolia": "0x7E0987E5b3a30e3f2828572Bb659A548460a3003",
+    #beam
+    "beam": "0x662b526FB70EBB508962f3f61c9F735f687C8fA5",
+    "beam_testnet": "0xfABa62a3B12f7c29F21881F5ed4c56cb6d45E4fb",
 }
 
 _router_contract_addresses_v2 = {
@@ -70,8 +75,11 @@ _router_contract_addresses_v2 = {
     # SushiSwap on Harmony
     "harmony_mainnet": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
     "harmony_testnet": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
-    #sepolia tesnet router address
+    #sepolia testnet router address
     "sepolia": "0xC532a74256D3Db42D0Bf7a0400fEFDbad7694008",
+    #beam
+    "beam": "0x965B104e250648d01d4B3b72BaC751Cde809D29E",
+    "beam_testnet": "0xB4cFBc4836c5a0Eb27A502B6008f9baF3Bf8b3Ee",
 }
 
 MAX_UINT_128 = (2**128) - 1
